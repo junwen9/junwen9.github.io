@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+  color: blue;
+  text-align: center;
+  
+  font-size: 63px;    
+  background-image: url('https://image.api.playstation.com/vulcan/img/rnd/202011/0714/Cu9fyu6DM41JPekXLf1neF9r.png');
+    background-size: cover;
+    background-position: center;
+  
+}
