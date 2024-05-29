@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>New Page with CSS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
 <body>
   Hello world
+  <script src="script.js"></script>
+  <div class="box" onclick="redirectToNewPage()">Click me!
+    </div>
+    <script>
+      function redirectToNewPage() {
+        window.location.href = 'newpage.html'; // Change 'newpage.html' to the desired new page URL
+      }
+    </script>
 </body>
 
 </html>
